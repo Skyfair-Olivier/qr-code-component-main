@@ -5,7 +5,7 @@ body {
     --Darkblue: hsl(218, 44%, 22%);
     margin:0;
     padding:0;
-    widows: 100vw;
+    width: 100vw;
     height: 100vh;
     background: var(--Lightgray);
     display: flex;
@@ -28,14 +28,20 @@ main{
 	width:100%;
 	border-radius: 20px;
 }
-.card__text p,.car__text h1{
+.card__text{
+	margin:20px 0;
+}
+.card__text p, .card__text h1{
 	font-family:'Baloo 2';
 	text-align:center;
+	margin:0;
+	line-height:130%;
 }
 .card__text h1{
 	font-size:17px;
 	font-weight:700;
 	color: var(--Darkblue);
+	margin-bottom:10px;
 }
 .card__text p{
 	font-weight:400;
